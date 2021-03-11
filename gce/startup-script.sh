@@ -40,6 +40,9 @@ source /opt/app/gce/env/bin/activate
 # Set ownership to newly created account
 chown -R pythonapp:pythonapp /opt/app
 
+sudo apt-get install libsasl2-dev python-dev libldap2-dev libssl-dev
+
+
 # Put supervisor configuration in proper place
 cp /opt/app/gce/python-app.conf /etc/supervisor/conf.d/python-app.conf
 

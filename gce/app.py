@@ -7,7 +7,7 @@ server = app.server
 
 
 app.layout = html.Div([
-            html.H1(children="Hello world!",className="hello",
+            html.H1(children="Hello worl!",className="hello",
     style={'color':'#00361c','text-align':'center'
           })
       ])
